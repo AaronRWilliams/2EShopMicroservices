@@ -2,8 +2,6 @@ using Catalog.API.Models;
 
 namespace Catalog.API.Products.GetProducts;
 
-//public record GetProductsRequest();
-
 public record GetProductsResponse(IEnumerable<Product> Products);
 
 public class GetProductsEndpoint : ICarterModule
